@@ -6,9 +6,11 @@ import Industries from "./pages/Industries";
 import Pentakuhl from "./pages/Pentakuhl";
 import "./styles/global.css";
 
+const basename = import.meta.env.BASE_URL.replace(/\/$/, "") || undefined;
+
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
