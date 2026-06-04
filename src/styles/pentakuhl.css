@@ -1,0 +1,297 @@
+.pentakuhl-about {
+  padding: 100px 0;
+  background: var(--white);
+}
+
+.pentakuhl-about-inner {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.pentakuhl-logo-large {
+  max-height: 72px;
+  margin-bottom: 24px;
+}
+
+.pentakuhl-about-text .section-label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.pentakuhl-about-text h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 18px;
+}
+
+.pentakuhl-about-text p {
+  color: var(--text-light);
+  margin-bottom: 14px;
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+.pentakuhl-pelican {
+  background: var(--light-bg);
+  padding: 40px 32px;
+  text-align: center;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  position: sticky;
+  top: 120px;
+}
+
+.pentakuhl-pelican img {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.pentakuhl-pelican h4 {
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.pelican-brand {
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  color: var(--accent) !important;
+  margin-bottom: 12px !important;
+}
+
+.pentakuhl-pelican > p:last-child {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+.pentakuhl-products {
+  padding: 100px 0;
+  background: var(--light-bg);
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.product-card {
+  background: var(--white);
+  padding: 36px 28px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border);
+  transition: var(--transition);
+  position: relative;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+  border-color: transparent;
+}
+
+.product-num {
+  font-size: 40px;
+  font-weight: 800;
+  color: rgba(10, 61, 98, 0.08);
+  line-height: 1;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.product-card h4 {
+  color: var(--primary);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.75;
+}
+
+.pentakuhl-services {
+  padding: 100px 0;
+  background: var(--white);
+}
+
+.services-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.services-list li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 22px;
+  background: var(--light-bg);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary);
+  border: 1px solid var(--border);
+  transition: var(--transition);
+}
+
+.services-list li:hover {
+  background: var(--white);
+  box-shadow: var(--shadow-sm);
+  border-color: var(--accent);
+}
+
+.check-icon {
+  width: 28px;
+  height: 28px;
+  background: var(--gradient-accent);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.pentakuhl-logistics {
+  padding: 100px 0;
+  background: var(--gradient-primary);
+  color: var(--white);
+}
+
+.logistics-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.section-label-light {
+  color: var(--accent-light) !important;
+}
+
+.logistics-text h3 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.logistics-text > p {
+  margin-bottom: 24px;
+  opacity: 0.9;
+  font-size: 15px;
+}
+
+.logistics-text ul {
+  list-style: none;
+}
+
+.logistics-text ul li {
+  padding: 10px 0 10px 24px;
+  position: relative;
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+.logistics-text ul li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+  font-weight: 700;
+}
+
+.logistics-image {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.logistics-image img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  display: block;
+}
+
+.pentakuhl-cta {
+  padding: 80px 0;
+  text-align: center;
+  background: var(--light-bg);
+}
+
+.pentakuhl-cta h3 {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.pentakuhl-cta > .container > p {
+  color: var(--text-light);
+  margin-bottom: 28px;
+  font-size: 16px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-outline-dark {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 32px;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 50px;
+  transition: var(--transition);
+}
+
+.btn-outline-dark:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+
+@media (max-width: 992px) {
+  .pentakuhl-about-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .pentakuhl-pelican {
+    position: static;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .logistics-inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .services-list {
+    grid-template-columns: 1fr;
+  }
+}
